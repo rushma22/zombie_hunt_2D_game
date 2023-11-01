@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'zombie';
+    src: url('./SHLOP.ttf');
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("back3.jpg");
+    position: absolute;
+    background-size: contain;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    visibility: hidden;
+}
+ 
+body{
+    margin: 0px;
+}
+
+* {
+    font-family: 'zombie';
+   
+}
+
+.mainpage{
+    background-image: url("main.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.man{
+    height: 230px;
+    margin-top: 400px;
+    margin-left: 300px;
+    position: absolute;
+    
+}
+.zombie{
+    height: 230px;
+    margin-top: 400px;
+    position: absolute;
+}
+
+.sboard{
+    margin-top: 10px;
+    position: absolute;
+}
+
+.brd{
+    margin-top: 20px;
+    height: 100px;
+    width: 200px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.score{
+    margin-top: 28px;
+    font-size: 75px;
+    position: absolute;
+    margin-left: 195px;
+    color: rgb(255, 234, 234);
+    text-shadow: 0 5px 0 rgb(255, 4, 4);
+}
+
+.menu{
+    height: 600px;
+    width: 600px;
+    margin-left: 490px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.head{
+    font-size: 90px;
+    color: #6e0303;
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 200px;
+    text-shadow: 0 5px 0 rgba(50, 49, 49, 0.942);
+    
+}
+
+.sub{
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 640px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+.btn {
+    width: 290px;
+    height: 80px;
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 640px;
+    cursor: pointer;
+}
+
+.enter {
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 740px;
+    margin-top: 577px;
+    position: absolute;
+    color: #6e0303;
+    text-shadow: 0 5px 0 rgba(255, 145, 145, 0.373);
+    cursor: pointer;
+}
+
+.f{
+    height: 150px;
+    margin-top: 500px;
+    position: absolute;
+}
+
+.end{
+    position: absolute;
+    background-image: url("end.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 67, 67);
+    text-shadow: 0 5px 0 rgba(255, 4, 4, 0.751);
+    font-size: 55px;
+    visibility: hidden ;
+}
+
+.title {
+    position: absolute;
+    z-index: 1;
+}
+.endbrd {
+    margin-left: 20px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 0;
+}
+
+.endscore{
+    color: rgb(1, 145, 107);
+    text-shadow: 0 4px 0 rgb(78, 0, 0);
+}
+
+.h2{
+    text-align: center;
+    font-weight: 200;
+}
+
+.try {
+    width:220px;
+    margin-top: 430px;
+    z-index: 0;
+    position: absolute;
+    cursor: pointer;
+}
+.p{
+    color: rgb(225, 3, 36);
+    text-shadow: 0 4px 0 rgb(78, 0, 0);
+    position: absolute;
+    margin-top: 480px;
+    font-size: 50px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.z{
+    margin-left: 250px;
+    position: absolute;
+    transition: 1s;
+}

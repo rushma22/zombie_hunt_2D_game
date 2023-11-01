@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zombie Hunt</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="icon.png">
+
+</head>
+<body onkeyup="key(event)">
+
+    <div class="mainpage" id="mainpage">
+        
+        <img class="menu" id="menu" src="menu.png" alt="">
+        <p class="head"> ZOMBIE HUNT</p> 
+        <div class="sub">
+            <p> Press 'SPACE' to Jump</p> 
+            <p>Press 'ENTER' to start</p> 
+        </div>
+           <div onclick="game();" id="enter">
+            <img class="btn" src="help.png" alt="">
+            <p class="enter">ENTER</p> 
+           </div> 
+           
+
+    </div>
+
+    <div class="main" id="main">
+        <div class="sboard" id="sboard">
+            <img class="brd" src="score.png" >
+            <p  class="score" id="score">0</p>
+        </div>
+        <img class="zombie" id="zombie" src="Walk (1).png" >
+        <img class="man" id="man" src="Run (1).png" >
+    </div>
+
+    <div class="end" id="end">
+        
+        <div class="title">
+            <h2 class="h2">
+                Game Over<br>Your Score is<br>
+                <span class="endscore" id="endscore">0</span>
+            </h2>
+            
+        </div>
+       <img class="endbrd" src="endboard.png" >
+       
+      
+        <img onclick="reload();" class="try" src="try.png">
+        <p onclick="reload();" class="p">Try Again</p>
+   
+      
+ 
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
